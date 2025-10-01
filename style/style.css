@@ -1,0 +1,7 @@
+/*puente entre los diferentes css*/
+@import url(./general.css);
+@import url(./index.css);
+@import url(./contact.css);
+@import url(./disenos.css);
+
+

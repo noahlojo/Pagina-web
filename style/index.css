@@ -1,0 +1,18 @@
+/*exclusivo al archivo index*/
+
+
+header img{
+    width: 50px
+}
+
+.Portada{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.Portada img{
+    width: 800px;
+}
+

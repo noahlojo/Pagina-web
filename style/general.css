@@ -1,0 +1,53 @@
+/*Cosas generales del html, body, textos, footers*/
+/*FUENTES*/
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+.kaushan-script-regular {
+  font-family: "Kaushan Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+    background-color: hsl(0, 89%, 82%);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0%;
+    display: flex;
+    gap: 50px
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+header{
+    background-color: indianred;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+footer{
+  background-color: rgba(205, 92, 92, 0.324);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}

@@ -2,7 +2,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="style/style.css" type="text/css">
     <title>Contacto</title>
     
@@ -12,15 +13,70 @@
     <header>
         <nav>
             <a href="index.html"> <img src="assets/img/mapple.png" alt=""></a>
-            <ul class="kaushan-script-regular">
+            <ul class="outfit">
                 <li> <a href="index.html"><i class="fa-solid fa-house"></i> Home</a></li>
-                <li> <a href="disenos.html"><i class="fa-solid fa-image"></i> Diseños</a></li>
-                <li> <a href="about.html"><i class="fa-solid fa-user"></i> Sobre mi</a></li>
+                <li> <a href="disenos.html"><i class="fa-solid fa-image"></i> Galeria</a></li>
+                <li> <a href="about.html"><i class="fa-solid fa-user"></i> Trabajos</a></li>
                 <li> <a href="contact.html"><i class="fa-solid fa-inbox"></i> Contacto</a></li>
             </ul>
         </nav>
    </header>
     
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At autem odit, impedit obcaecati enim assumenda! Officiis, doloremque explicabo alias expedita, a possimus eius blanditiis eum totam porro aliquam, eaque maxime!</p>
+   <main>
+        <h1 class="kaushan-script-regular">Contacto</h1>
+
+        <form>
+            <label for="name">Nombre</label>
+            <input type="text" name="name">
+
+            <label for="email">Email</label>
+            <input type="email" name="email">
+
+            <label for="telephone">Teléfono</label>
+            <input type="number" name="telephone">
+
+            <label for="comment">Mensaje</label>
+            <textarea name="comment" placeholder="Escriba su mensaje..."></textarea>
+
+            <legend>¿Cual es el motivo de su contacto?</legend>
+            <select name="reason" id="reason">
+                <option value="" selected>Seleccionar</option>
+                <option value="work">Trabajo</option>
+                <option value="social">Sociales</option>
+                <option value="better">Mejoras</option>
+                <option value="more">Mas info</option>
+            </select>
+
+            <fieldset>
+                <legend>¿Te gustó la presentacion de la página?</legend>
+
+                <input type="radio" name="new-contact">
+                <label for="new-contact">Si</label>
+
+                <input type="radio" name="new-contact">
+                <label for="new-contact">No</label>
+            </fieldset>
+
+            <div>
+                <button type="submit" >Enviar</button>
+                <button type="reset">Borrar</button>
+            </div>
+
+        </form>
+
+        <div>
+            <h2 class="kaushan-script-regular">Seguime en mis redes!</h2>
+            <a href="https://www.instagram.com/noah_lojo/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/noah.lojo" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/alanis-noah-lojo-8b4b25248/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://wa.me/+5491166583649" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+
+   </main>
+
+    <footer class="montserrat">
+        <p>© 2025 Alanis Noah Lojo</p>
+    </footer>
+
 </body>
 </html>

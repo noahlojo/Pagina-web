@@ -1,6 +1,15 @@
 /*Cosas generales del html, body, textos, footers*/
 /*FUENTES*/
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+.outfit {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
 
 .kaushan-script-regular {
   font-family: "Kaushan Script", cursive;
@@ -8,16 +17,28 @@
   font-style: normal;
 }
 
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header img{
+    width: 50px
+}
+
 body{
     background-color: hsl(0, 89%, 82%);
     margin: 0;
     padding: 0;
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 70px;
 }
 
 nav{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
@@ -25,6 +46,8 @@ nav{
 
 nav ul{
     list-style-type: none;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     margin: 0%;
     display: flex;
     gap: 50px

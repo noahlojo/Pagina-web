@@ -1,18 +1,32 @@
 /*exclusivo al archivo index*/
 
-
-header img{
-    width: 50px
+.index main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 0 auto
 }
 
-.Portada{
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    
+#myself{
+    width: 30vw;
+    max-height: 30vw;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 30px;
 }
 
-.Portada img{
-    width: 800px;
+.index main div{
+    background-color: white;
+    width: 40%;
+    min-width: 300px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 

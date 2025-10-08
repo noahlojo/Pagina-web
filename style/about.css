@@ -1,0 +1,52 @@
+.about main{
+    padding-top: 50px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.786);
+}
+
+.card h2{
+    padding-top: 15px;
+}
+
+.card p{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.card button{
+    background-color: indianred;
+    width: 50%;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 15px;
+    align-self: center;
+}
+
+.card button:hover{
+    background-color: rgb(154, 24, 24);
+    cursor: pointer;
+}
+
+div img{
+    border-radius: 5px;
+    padding-bottom: 15px;
+}

@@ -5,6 +5,11 @@ h1{
     font-size: 60px;
 }
 
+.disenos h1, .disenos h3{
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
 #carouselExampleAutoplaying{
     width: 40%;
     margin: auto;

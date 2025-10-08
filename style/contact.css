@@ -42,3 +42,8 @@ a{
     padding: 10px;
     
 }
+
+.contact main, .fa-brands{
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}  
